@@ -32,7 +32,7 @@
 **Installation and Setup**
 
 - Clone the Repository:
-git clone https://github.com/yourusername/waiter.git
+git clone git@github.com:killamillz/waiter.git
 cd waiter
 
 - Install Dependencies:
