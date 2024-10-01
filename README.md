@@ -1,4 +1,4 @@
-**Waiter** is a Next.js application designed to simplify online ordering for restaurants. Customers can browse menus, place orders, and complete payments online, while restaurants can manage orders in real-time. The app is built with Next.js for fast server-side rendering, MongoDB for database management, and Tailwind CSS for a modern, responsive interface. It is deployed on Vercel, ensuring smooth performance and scalability.
+Waiter is a Next.js application designed to simplify online ordering for restaurants. Customers can browse menus, place orders, and complete payments online, while restaurants can manage orders in real-time. The app is built with Next.js for fast server-side rendering, MongoDB for database management, and Tailwind CSS for a modern, responsive interface. It is deployed on Vercel, ensuring smooth performance and scalability.
 
 
 **Features**
@@ -34,11 +34,13 @@
 - Clone the Repository:
 git clone git@github.com:killamillz/waiter.git
 cd waiter
+cd waiter
 
 - Install Dependencies:
 npm install
 
 - Set Up Environment Variables: Create a .env.local file in the root directory with the following environment variables:
+
 MONGODB_URI=your_mongodb_connection_string
 NEXT_PUBLIC_STRIPE_API_KEY=your_stripe_public_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
